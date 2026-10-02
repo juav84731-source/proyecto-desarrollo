@@ -1,0 +1,135 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.5;
+}
+
+.contenedor {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 20px 16px 40px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #2c3e50;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #2c3e50;
+}
+
+.tarjeta {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.racha-tarjeta {
+  text-align: center;
+}
+
+.racha-numero {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #e67e22;
+}
+
+.racha-texto {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.racha-mejor {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #777;
+}
+
+.racha-semana {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #3498db;
+  font-weight: 500;
+}
+
+.racha-mes {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #27ae60;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 8px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.mensaje {
+  margin-top: 10px;
+  color: #27ae60;
+  font-size: 0.95rem;
+  min-height: 1.2em;
+}
+
+.lista-sesiones {
+  list-style: none;
+}
+
+.lista-sesiones li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.lista-sesiones li:last-child {
+  border-bottom: none;
+}
+
+.sesion-tema {
+  font-weight: bold;
+}
+
+.sesion-detalle {
+  font-size: 0.9rem;
+  color: #777;
+}
